@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+textarea {
+    width: 300px;
+    height: 200px;
+    resize: none;
+    background-color: white;
+    border: 2px solid black;
+    margin: 20px;
+    color: black;
+}
+
+textarea:focus {
+    outline-color: transparent;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-weight: bolder;
+    background-color: white;
+}

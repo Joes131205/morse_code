@@ -25,6 +25,7 @@ const morseCode = {
     "Y": "-.--",
     "Z": "--.."
 };
+
 const wordEl = document.getElementById("word");
 const morseEl = document.getElementById("morse");
 const translateEl = document.getElementById("translate");
@@ -42,5 +43,3 @@ translateEl.addEventListener("click", function() {
     }).join(" ");
     morseEl.value = morse;
 })
-
-
